@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Bedo Transportation - Book Your Ride</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span class="logo-b">B</span><span class="logo-t">T</span>
+                <span class="logo-text">Bedo Transportation</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="medical.html">Medical Courier</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch to book your ride or learn more about our services</p>
+        </div>
+    </section>
+
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="airport">Airport Rides</option>
+                            <option value="wedding">Weddings</option>
+                            <option value="corporate">Corporate Events</option>
+                            <option value="prom">Proms</option>
+                            <option value="medical">Medical Courier</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <div class="info-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+1234567890">(123) 456-7890</a></p>
+                    <p>Available 24/7 for urgent requests</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@bedotransport.com">info@bedotransport.com</a></p>
+                    <p>Typically respond within 1 business day</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Service Area</h3>
+                    <p>Serving the Greater Metro Area</p>
+                    <p>Including surrounding suburbs</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Hours</h3>
+                    <p>24/7 by appointment</p>
+                    <p>Office hours: Mon-Fri 9am-5pm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking-section">
+        <div class="container">
+            <h2>Book Your Ride</h2>
+            <div class="booking-form">
+                <form id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="booking-name">Full Name</label>
+                            <input type="text" id="booking-name" name="booking-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-phone">Phone Number</label>
+                            <input type="tel" id="booking-phone" name="booking-phone" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="booking-date">Date</label>
+                            <input type="date" id="booking-date" name="booking-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-time">Time</label>
+                            <input type="time" id="booking-time" name="booking-time" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="booking-service">Service Type</label>
+                        <select id="booking-service" name="booking-service" required>
+                            <option value="">Select service</option>
+                            <option value="airport">Airport Transfer</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="corporate">Corporate Event</option>
+                            <option value="medical">Medical Courier</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="booking-notes">Special Instructions</label>
+                        <textarea id="booking-notes" name="booking-notes" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Request Booking</button>
+                </form>
+                <div class="booking-disclaimer">
+                    <p><i class="fas fa-info-circle"></i> This is a booking request form. A representative will contact you to confirm availability and finalize details.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <span class="logo-b">B</span><span class="logo-t">T</span>
+                <span class="logo-text">Bedo Transportation</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html#airport">Airport Rides</a></li>
+                        <li><a href="services.html#weddings">Weddings</a></li>
+                        <li><a href="services.html#events">Special Events</a></li>
+                        <li><a href="medical.html">Medical Courier</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+                        <li><i class="fas fa-envelope"></i> info@bedotransport.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Serving the Greater Metro Area</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 Bedo Transportation. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
